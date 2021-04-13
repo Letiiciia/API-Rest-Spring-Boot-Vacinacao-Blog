@@ -1,10 +1,14 @@
 package com.controladorvacina.controladorvacinaapi.model;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 public class Usuario {
@@ -18,7 +22,13 @@ public class Usuario {
 	@Column(nullable = false)
 	private String email;
 	
-//getters and setters
+	@Column(nullable = false, unique = true)
+	private String cpf;
+	
+	@Column(nullable = false)
+	@JsonFormat(pattern="dd-MM-yyyy")
+	private Date dataNascimento;
+
 	public long getId() {
 		return id;
 	}
@@ -43,6 +53,22 @@ public class Usuario {
 		this.email = email;
 	}
 
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -63,5 +89,6 @@ public class Usuario {
 		if (id != other.id)
 			return false;
 		return true;
-	}	
+	}
+	
 }
