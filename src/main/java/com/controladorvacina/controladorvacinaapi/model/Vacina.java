@@ -1,14 +1,17 @@
 package com.controladorvacina.controladorvacinaapi.model;
 
 import java.util.Date;
-
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+@Entity
 public class Vacina {
  
 	@Id
@@ -19,6 +22,7 @@ public class Vacina {
 	private String nomeVacina;
 	
 	@Column(nullable = false)
+	@JsonFormat(pattern="dd-MM-yyyy")
 	private Date data;
 	
 	@ManyToOne
