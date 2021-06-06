@@ -57,7 +57,7 @@ Na model da vacina eu declaro:<br>
 - Id<br>
 - nomeVacina<br>
 - data<br>
-- usuário (neste campo eu uso a chave estrangeira e referencio os dados de um cadastro de usuário)<br>
+- usuário (neste campo eu uso a chave estrangeira e referencio os dados de um cadastro de usuário)<br><br>
 <p>Em cada declaração eu coloco as notações que configuram o dado, por exemplo o dado data, a notação @JsonFormat define o formato da data.</p><br>
 <p>E por fim gero getters, setters, hashCode e equals, pois não estou usando lombok que faz a autogeração desses itens.
 Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o dado e o status 201 - Created, se houver erro no preenchimento do dado o retorno será 400 - Bad request.</p>
