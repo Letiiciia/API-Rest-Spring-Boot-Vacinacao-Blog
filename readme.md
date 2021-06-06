@@ -12,7 +12,7 @@ No Spring Initializr, na página web https://start.spring.io/, foi configurado o
 -> H2 Database<br>
 <br>
 <p align="center"> 
-<img src="https://github.com/Letiiciia/Letiiciia/blob/master/Imagem/me.jpg" height="80%" width ="80%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/1.PNG" height="80%" width ="80%">
 </p>
 
 Além da facilidade que o Spring Boot nos possibilita, a escolha dessas dependências foi com a intenção de facilitar ainda mais. Na minha humilde concepção, eu entendo o Spring Boot com a visualização de um cenário, que eu faço questão de detalhar para que vocês enxerguem exatamente como eu.<br>
