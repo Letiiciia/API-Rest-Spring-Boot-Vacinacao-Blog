@@ -4,8 +4,8 @@
 <img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/capa.png" height="50%" width ="50%">
 </p>
 
-Neste artigo irei explicar de forma detalhada a construção de uma API REST utilizando a linguagem JAVA e as tecnologias Spring Boot e Hibernate, a IDE utilizada na construção da aplicação foi o Eclipse e a versão 8 do JAVA.
-No Spring Initializr, na página web https://start.spring.io/, foi configurado os nomes dos pacotes e selecionado as seguintes dependências:<br>
+<h1>Neste artigo irei explicar de forma detalhada a construção de uma API REST utilizando a linguagem JAVA e as tecnologias Spring Boot e Hibernate, a IDE utilizada na construção da aplicação foi o Eclipse e a versão 8 do JAVA.</h1>
+<h2>No Spring Initializr, na página web https://start.spring.io/, foi configurado os nomes dos pacotes e selecionado as seguintes dependências:</h2><br>
 -> Spring Web<br>
 -> Spring Boot DevTools<br>
 -> Spring Data JPA<br>
@@ -15,9 +15,9 @@ No Spring Initializr, na página web https://start.spring.io/, foi configurado o
 <img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/1.PNG" height="80%" width ="80%">
 </p>
 
-Além da facilidade que o Spring Boot nos possibilita, a escolha dessas dependências foi com a intenção de facilitar ainda mais. Na minha humilde concepção, eu entendo o Spring Boot com a visualização de um cenário, que eu faço questão de detalhar para que vocês enxerguem exatamente como eu.<br>
-Imaginem um desenvolvedor que trabalha em Home Office e sempre antes de iniciar o desenvolvimento de uma aplicação, o assistente Spring Boot organiza o setup dele, liga os equipamentos, configura tudo o que precisa ser configurado para que ele tenha apenas o trabalho de codar (codificar) e de brinde ainda entrega uma xícara de café (risos).<br>
-Consegue visualizar a facilidade que este projeto do Framework Spring nos possibilita? Este comparativo é um pouco exagerado, mas a intenção é apenas construir uma ilustração na sua mente.
+<h3>Além da facilidade que o Spring Boot nos possibilita, a escolha dessas dependências foi com a intenção de facilitar ainda mais. Na minha humilde concepção, eu entendo o Spring Boot com a visualização de um cenário, que eu faço questão de detalhar para que vocês enxerguem exatamente como eu.</h3><br>
+<h4>Imaginem um desenvolvedor que trabalha em Home Office e sempre antes de iniciar o desenvolvimento de uma aplicação, o assistente Spring Boot organiza o setup dele, liga os equipamentos, configura tudo o que precisa ser configurado para que ele tenha apenas o trabalho de codar (codificar) e de brinde ainda entrega uma xícara de café (risos).</h4><br>
+<h5>Consegue visualizar a facilidade que este projeto do Framework Spring nos possibilita? Este comparativo é um pouco exagerado, mas a intenção é apenas construir uma ilustração na sua mente.</h5>
 
 <p align="center"> 
 <img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/robo.jpg" height="25%" width ="25%">
@@ -68,8 +68,8 @@ Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o
 <p align="center"> 
 <img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/5.PNG" height="80%" width ="80%">
 </p>
-Quando minha API estiver completinha, posso fazer deploy pelo Heroko e deixar meus endpoints acessíveis na web. Espero que tenham compreendido o quão importâte o Spring Boot é para o processo.
-
+Quando minha API estiver completinha, posso fazer deploy pelo Heroko e deixar meus endpoints acessíveis na web. Espero que tenham compreendido o quao importante o Spring Boot é para o processo.
+<br>
 
 Até a Próxima. Letícia Ferreira Lima
 
