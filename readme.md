@@ -71,5 +71,6 @@ Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o
 <p>Quando minha API estiver completinha, posso fazer deploy pelo Heroko e deixar meus endpoints acessíveis na web. Espero que tenham compreendido o quao importante o Spring Boot é para o processo.</p>
 <br>
 
-Até a Próxima. Letícia Ferreira Lima :kiss:
+Até a Próxima.<br>
+Letícia Ferreira Lima :kiss:
 
