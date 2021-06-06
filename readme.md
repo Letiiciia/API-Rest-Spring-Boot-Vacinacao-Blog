@@ -48,16 +48,16 @@ E por fim o H2 Database que é um modelo de banco de dados em memória, ele já 
 <br>
 <br>
 Na model do usuário eu declaro:<br>
-- Id<br>
-- Nome<br>
-- Email<br>
-- Cpf<br>
-- dataNascimento<br><br>
+- Id;<br>
+- Nome;<br>
+- Email;<br>
+- Cpf;<br>
+- dataNascimento.<br><br>
 Na model da vacina eu declaro:<br>
-- Id<br>
-- nomeVacina<br>
-- data<br>
-- usuário (neste campo eu uso a chave estrangeira e referencio os dados de um cadastro de usuário)<br><br>
+- Id;<br>
+- nomeVacina;<br>
+- data;<br>
+- usuário (neste campo eu uso a chave estrangeira e referencio os dados de um cadastro de usuário).<br><br>
 <p>Em cada declaração eu coloco as notações que configuram o dado, por exemplo o dado data, a notação @JsonFormat define o formato da data.</p><br>
 <p>E por fim gero getters, setters, hashCode e equals, pois não estou usando lombok que faz a autogeração desses itens.
 Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o dado e o status 201 - Created, se houver erro no preenchimento do dado o retorno será 400 - Bad request.</p>
@@ -71,5 +71,5 @@ Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o
 <p>Quando minha API estiver completinha, posso fazer deploy pelo Heroko e deixar meus endpoints acessíveis na web. Espero que tenham compreendido o quao importante o Spring Boot é para o processo.</p>
 <br>
 
-Até a Próxima. Letícia Ferreira Lima
+Até a Próxima. Letícia Ferreira Lima :kiss:
 
