@@ -1,7 +1,7 @@
 ## API REST com Spring Boot e Hibernate
 
 <p align="center"> 
-<img src="" height="50%" width ="50%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/capa.png" height="50%" width ="50%">
 </p>
 
 Neste artigo irei explicar de forma detalhada a construção de uma API REST utilizando a linguagem JAVA e as tecnologias Spring Boot e Hibernate, a IDE utilizada na construção da aplicação foi o Eclipse e a versão 8 do JAVA.
@@ -20,7 +20,7 @@ Imaginem um desenvolvedor que trabalha em Home Office e sempre antes de iniciar 
 Consegue visualizar a facilidade que este projeto do Framework Spring nos possibilita? Este comparativo é um pouco exagerado, mas a intenção é apenas construir uma ilustração na sua mente.
 
 <p align="center"> 
-<img src="https://github.com/Letiiciia/Letiiciia/blob/master/Imagem/me.jpg" height="25%" width ="25%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/robo.jpg" height="25%" width ="25%">
 </p>
 
 <br>
@@ -32,11 +32,11 @@ E por fim o H2 Database que é um modelo de banco de dados em memória, ele já 
 A arquitetura de pastas utilizada no projeto foi o MVC, então comecei pela minha Controller, criando a chamada dos métodos POST’s dentro do package controller, uma classe chamada UsuarioController que contém o método de cadastramento de usuário no banco de dados, e outra classe chamada VacinaController que contém o método de cadastramento da aplicação da vacina.
 
 <p align="center"> 
-<img src="https://github.com/Letiiciia/Letiiciia/blob/master/Imagem/me.jpg" height="80%" width ="80%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/2.PNG" height="80%" width ="80%">
 </p>
 
 <p align="center"> 
-<img src="https://github.com/Letiiciia/Letiiciia/blob/master/Imagem/me.jpg" height="80%" width ="80%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/3.PNG" height="80%" width ="80%">
 </p>
 
 <br>
@@ -63,7 +63,10 @@ E por fim gero getters, setters, hashCode e equals, pois não estou usando lombo
 Por fim texto minhas rotas no postman. Ao criar um cadastro o retorno deve ser o dado e o status 201 - Created, se houver erro no preenchimento do dado o retorno será 400 - Bad request.
 <br>
 <p align="center"> 
-<img src="https://github.com/Letiiciia/Letiiciia/blob/master/Imagem/me.jpg" height="80%" width ="80%">
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/4.PNG" height="80%" width ="80%">
+</p>
+<p align="center"> 
+<img src="https://github.com/Letiiciia/API-Rest-Spring-Boot-Vacinacao/blob/master/img/5.PNG" height="80%" width ="80%">
 </p>
 Quando minha API estiver completinha, posso fazer deploy pelo Heroko e deixar meus endpoints acessíveis na web. Espero que tenham compreendido o quão importâte o Spring Boot é para o processo.
 
